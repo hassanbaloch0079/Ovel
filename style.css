@@ -1,1 +1,1409 @@
+ul.header-nav.header-nav-main li.menu-item {
+    margin: 0;
+}
+ul.header-nav.header-nav-main li.menu-item a {
+    font-size: 1.2vw;
+    font-weight: 300;
+	line-height: 1;
+}
+.ovel-header-buttons {
+    display: inline-flex;
+    gap: 1vw;
+}
+.ovel-button-main {
+    background: #BA6040;
+    color: white;
+    padding: 0.8vw 2.5vw 0.8vw 2.5vw;
+    font-size: 1vw;
+    border-radius: 5vw;
+    font-weight: 400;
+    transition: 0.5s;
+    position: relative;
+    width: max-content;
+    display: inline-block;
+	border: 0.1vw solid #BA6040;
+}
+.ovel-button-main:hover {
+	background: #959F8A;
+	color: black;
+	border: 0.1vw solid #959F8A;
+}
+ul.header-nav.header-nav-main li.menu-item a:after, ul.ovel-footer-widget-manu li a:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    background: white;
+    height: 0.05vw;
+    left: 0vw;
+    bottom: 0.3vw;
+    transition: 0.5s;
+}
+.ovel-button-main.gray_bg_btn {
+	background: #231F20;
+	color: white;
+}
+ul.header-nav.header-nav-main li.menu-item a:hover:after, ul.ovel-footer-widget-manu li a:hover:after {
+    width: calc(100% - 0vw);
+}
+.ovel-button-main.white_bg_btn {
+    background: white;
+    color: #BA6040;
+	border-color: white;
+}
+.ovel-button-main.white_bg_btn:after {
+    background: #BA6040;
+	border-color: #BA6040;
+}
+.ovel-home-sec-main h2 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-bottom: 2vw;
+    line-height: 1.5;
+}
+.ovel-home-sec-main p {
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: 2.5vw;
+    line-height: 1.5;
+    margin-top: 2.5vw;
+}
+.ovel-home-sec-main {
+    text-align: center;
+}
+.ovel-home-sec1-btn {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+.ovel-ovelled-vector-home {
+    position: absolute;
+    top: -35vw;
+}
+.ovel-main-home-banner {
+    z-index: 3;
+}
+.designed-empower-section {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.ovel-home-sec1 {
+    margin-left: 10vw;
+}
+p.ovel-main-peragraphing {
+    color: #777777;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    font-weight: 400;
+	margin-bottom: 0;
+}
+.ovel-main-heading {
+    font-size: 2.5vw;
+    color: #231F20;
+    line-height: 1.2;
+    margin-bottom: 1vw;
+}
+.ovel-masonry-grid {
+    height: 45vw;
+    position: relative;
+}
+.ovel-masonry-grid .grid-item {
+    width: 24%;
+    height: 15vw;
+    background: #959F8A;
+    border-radius: 0.5vw;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ovel-masonry-grid .grid-item-2 {
+    left: 25.3%;
+	background-color: #BA6040;
+}
+.ovel-masonry-grid .grid-item-3 {
+    left: 50.6%;
+	background-color: #231F20;
+}
+.ovel-masonry-grid .grid-item-4 {
+    left: 75.9%;
+	height: 28vw;
+}
+.ovel-masonry-grid .grid-item-5 {
+    top: 16.3vw;
+    width: 49.3%;
+    height: 28vw;
+}
+.ovel-masonry-grid .grid-item-6 {
+    top: 16.3vw;
+    left: 50.6%;
+}
+.ovel-masonry-grid .grid-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5vw;
+}
+.ovel-content-switcher-slider .switcher-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 1.5s;
+}
+.ovel-content-switcher-slider .switcher-item.active {
+	opacity: 1;
+}
+.ovel-masonry-grid .grid-item-7 {
+    left: 50.6%;
+    top: 32.6vw;
+    height: 11.7vw;
+}
+.ovel-masonry-grid .grid-item-8 {
+    left: 75.9%;
+    top: 29.3vw;
+	background-color: #BA6040;
+}
+.ovel-masonry-grid .ovel-masonry-grid-inner {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.ovel-masonry-grid .ovel-masonry-grid-content-box h3 {
+    color: white;
+    margin-bottom: 0.5vw;
+    font-size: 1.4vw;
+}
+.ovel-masonry-grid .ovel-masonry-grid-content-box {
+    padding: 0 2vw;
+}
+.ovel-masonry-grid .ovel-masonry-grid-content-box p {
+    margin-bottom: 0;
+    font-size: 1vw;
+    line-height: 1.3;
+}
+.ovel_home_mesonry_griding {
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+}
 
+
+
+
+.ovel-subtitle {
+    color: #ba6040;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+.ovel-sec-choose-us-main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+.ovel-sec-choose-us-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.ovel-sec-choose-us-grid-inner img {
+    background: #F9F9F9;
+    border-radius: 50%;
+    padding: 1vw;
+    width: 4.5vw;
+}
+.ovel-sec-choose-us-grid-inner h4 {
+    color: black;
+    font-weight: 600;
+    padding-top: 1vw;
+    padding-bottom: 1.2vw;
+    margin: 0 !important;
+    font-size: 1.7vw;
+}
+.ovel-sec-choose-us-grid-inner {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.ovel-section-installation-grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 1.5vw;
+    width: 85%;
+    margin: auto;
+    margin-top: 3vw;
+}
+.ovel-section-installation-grid-main-inner {
+    padding: 2vw 1vw 4vw 1vw;
+    box-shadow: 0px 10px 25px -22px;
+    border-radius: 1vw;
+	position: relative;
+	cursor: pointer;
+}
+.ovel-section-installation-grid-main-inner img {
+    width: 25%;
+}
+.ovel-section-installation-grid-main-inner h4 {
+    font-size: 1.4vw;
+    color: black;
+    font-weight: 600;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.ovel-section-installation-grid-main-inner p.ovel-main-peragraphing {
+    font-size: 1.1vw;
+}
+.ovel-installaltion-main-heading {
+    text-align: center;
+}
+.your-vision-top-outer {
+    background: #F8F3F0;
+    padding-top: 3vw !important;
+}
+.your-vision-bottom-outer {
+    background: #F8F3F0;
+    padding-bottom: 3vw !important;
+}
+.ovel-float-image-left {
+    position: absolute;
+    top: 1vw;
+    width: 15vw !important;
+    left: 0;
+}
+.ovel-float-image-right {
+    width: 22vw !important;
+    position: absolute;
+    right: 0;
+    top: -4vw;
+}
+.ovel-sec-choose-us-grid-inner:hover img, .ovel-section-installation-grid-main-inner:hover img, .whatwedo-box:hover .crnc-icon img, .ovel_home_spaces_inspire_box:hover .crnr-ovel-img img  {
+  animation: bounce 1s ease;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+}
+.ovel-seamlessly-simple-section {
+    margin-top: 5vw;
+    margin-bottom: 8vw;
+}
+.ovel-section-installation-grid-main-inner .ovel-insta-line {
+    height: 0.2vw;
+    background: #BA6040;
+    width: 24%;
+    position: absolute;
+    bottom: 2.5vw;
+    left: 38%;
+}
+.space-empowered-section {
+    padding-top: 5vw !important;
+    padding-bottom: 15vw !important;
+}
+.space-empowered-section h2.ovel-main-heading, .space-empowered-section p.ovel-main-peragraphing {
+    color: white;
+}
+.ovel_image_slider_outer {
+    width: 120%;
+    margin-left: 5%;
+    margin-top: -11vw;
+    margin-bottom: 5vw;
+}
+.ovel_image_slider .ovel_image_slider-imgbox {
+    padding-left: 0vw;
+    padding-right: 1vw;
+}
+.ovel_image_slider_outer .flickity-prev-next-button.previous {
+    /* opacity: 1; */
+    left: -1.2vw !important;
+}
+.ovel_image_slider_outer .flickity-prev-next-button.next {
+    /* opacity: 1; */
+    right: 29.4vw !important;
+}
+.ovel_image_slider_outer .flickity-prev-next-button svg.flickity-button-icon {
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #BA6040;
+    height: 3vw;
+    width: 3vw !important;
+    max-width: 3vw;
+    padding: 0.8vw;
+}
+.ovel_image_slider_outer .flickity-prev-next-button svg.flickity-button-icon .arrow {
+    fill: #BA6040;
+    border-color: #BA6040;
+}
+.ovel_image_slider .ovel_image_slider-imgbox img {
+    width: 100%;
+}
+.ovel-form-fields.ovel-form-grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+.ovel-footer-section {
+    padding-top: 4vw !important;
+    padding-bottom: 2vw !important;
+}
+.ovel-footer-section h4.ovel-subtitle {
+    text-transform: capitalize;
+    margin-bottom: 1vw;
+    font-weight: 500;
+	color: #777777;
+}
+.ovel-form-fields.ovel-form-grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5vw;
+}
+.ovel-form-fields input.wpcf7-form-control {
+    margin-bottom: 1vw;
+    background: transparent;
+    border-radius: 0.5vw;
+    font-size: 0.95vw;
+    height: 3.3vw;
+    padding: 0.5vw 1.2vw;
+    font-family: 'Inter', sans-serif;
+    border: 0.1vw solid #C4C4C4;
+    box-shadow: unset;
+}
+.ovel-form-fields input.wpcf7-form-control::placeholder {
+	color: #777777;
+}
+.ovel-form-fields.ovel-form-grid-twobyone {
+    display: flex;
+    gap: 0.5vw;
+}
+.ovel-form-fields.ovel-form-grid-twobyone .ovel-form-fields-inner:nth-child(2) {
+    width: 3.5vw;
+}
+.ovel-form-fields.ovel-form-grid-twobyone input.wpcf7-submit {
+    display: none;
+}
+.ovel-form-fields.ovel-form-grid-twobyone img {
+    border: 1px solid #C4C4C4;
+    width: 100%;
+    height: 3.3vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+	cursor:pointer;
+}
+.ovel-footer-sofa-image {
+    margin-top: -22vw;
+}
+.ovel-trust-section {
+    margin-bottom: 14vw;
+    background: #F8F3F0;
+    padding-top: 5vw !important;
+    padding-bottom: 5vw !important;
+}
+.absolute-footer.dark {
+    display: none;
+}
+.ovel-footer-widget-left p.ovel-main-peragraphing {
+    font-size: 1.1vw;
+    color: #777777;
+    margin-bottom: 2vw;
+}
+.ovel-footer-widget-left a.ovel-button-main {
+    display: inline-block;
+}
+ul.ovel-footer-social-links {
+    margin-top: 2vw;
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    gap: 0.5vw;
+}
+ul.ovel-footer-social-links li {
+    margin: 0;
+}
+ul.ovel-footer-social-links li a {
+    width: 2.5vw;
+    height: 2.5vw;
+    background: #BA6040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding-top: 0.1vw;
+    color: white;
+}
+ul.ovel-footer-social-links li a:hover {
+    background: black;
+    color: white;
+}
+.ovel-footer-widget-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5vw;
+}
+ul.ovel-footer-widget-manu {
+    list-style: none;
+    margin: 0;
+}
+ul.ovel-footer-widget-manu li {
+    margin: 0;
+    margin-bottom: 0.6vw;
+}
+ul.ovel-footer-widget-manu li a {
+    font-size: 1vw;
+    color: #777777;
+	position: relative;
+}
+ul.ovel-footer-widget-manu li a:after{
+	bottom: -0.3vw
+}
+ul.ovel-footer-widget-manu.footer-contact-widget li.oflink a {
+    color: #ba6040;
+    font-weight: 600;
+}
+ul.ovel-footer-widget-manu.footer-contact-widget:nth-child(1) {
+    margin-bottom: 5vw;
+}
+.ovel-copyrights-footer {
+    margin-top: 2vw;
+    padding-top: 2vw;
+    border-top: 0.1vw solid #ba6040;
+}
+.ovel-copyrights-footer .ovcopyrights-box {
+    font-size: 1vw;
+}
+.ovel-copyrights-footer .ovcopyrights-box.ovcopyrights-menulist {
+    display: flex;
+    gap: 3vw;
+    justify-content: end;
+}
+/* .ovel-ovelled-vector-home img {
+	transition: transform 1s ease;
+	transform-origin: center center;
+	clip-path: inset(0 100% 100% 100%);
+	animation: revealDraw 10s ease-out infinite alternate;
+	opacity: 0;
+}
+@keyframes revealDraw {
+	0% {
+		clip-path: inset(0 100% 100% 100%);
+		transform: scale(1.05);
+		opacity: 0;
+	}
+	100% {
+		clip-path: inset(0 0 0% 0%);
+		transform: scale(1);
+		opacity: 1;
+	}
+} */
+
+.ovel-button-main.white_bg_btn:hover {
+    background: #ba6040;
+    color: white !important;
+	 border-color: #ba6040;
+}
+.ovel-testimonial-grider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    margin: auto;
+    gap: 1vw;
+	margin-top: 3vw;
+}
+.ovel-testimonial-grider .ovel-testi-item {
+    background: white;
+    padding: 2vw 2vw 8vw 2vw;
+    box-shadow: 0px 0px 6px -5px;
+	position: relative;
+}
+.tsti-author-section {
+    display: flex;
+    gap: 2vw;
+    position: absolute;
+    bottom: 2vw;
+}
+.tsti-author-section h3 {
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.tsti-author-section h4 {
+    margin: 0;
+    font-size: 1vw;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: #777777;
+}
+
+
+
+/**** New site css *****/
+.ovel-home-counters {
+    z-index: 4;
+}
+.ovhome-counters {
+    width: 69%;
+    margin: auto;
+    background: white;
+    margin-top: -4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2.5vw;
+    border: 0.1vw solid #E1E1DF;
+    box-shadow: 0vw 1vw 4vw -3vw;
+	margin-bottom: 7vw;
+}
+.ovhome-counters .counter-box {
+    padding: 1.5vw 0 2vw 0;
+    font-weight: 600;
+    font-size: 2.8vw;
+    color: #BA6040;
+}
+.ovhome-counters .counter-box p {
+    color: #928484;
+    margin-bottom: 0;
+    font-size: 1vw;
+    font-weight: 100;
+}
+.ovel_footer_grid {
+    display: grid;
+    grid-template-columns: 1.6fr 3fr;
+    gap: 8vw;
+}
+.ovel_footer_menus {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.6fr 1fr;
+}
+ul.ovel-footer-menu_links li {
+    list-style: none;
+    margin: 0;
+	margin-bottom: 0.3vw;
+}
+.ovel_footer_menu_widget h4 {
+    font-size: 1.1vw;
+    color: black;
+    margin-bottom: 1vw;
+}
+ul.ovel-footer-menu_links li a {
+    font-size: 0.98vw;
+    color: #777777;
+}
+ul.ovel-footer-menu_links li a:hover {
+	color: black;
+}
+.ovel_footer_stay_inspired h3 {
+    font-weight: 600;
+    color: #777777;
+    font-size: 1.3vw;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1vw;
+}
+.ovel-footer-logo-widget img {
+    width: 9vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1vw;
+}
+.ovel-footer-logo-widget p {
+    color: #777777;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+}
+.ovel-footer-copy-rights p {
+    margin-top: 4vw;
+    margin-bottom: 0;
+    font-size: 0.9vw;
+    color: #777;
+}
+.ovel-footer-terms {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3vw;
+    align-items: end;
+}
+.ovel-footer-terms a {
+    font-size: 0.9vw;
+    color: #777777;
+}
+.ovel-footer-terms a:hover {
+    color: black;
+}
+.ovel-footer-contact-info {
+    margin-top: 2.5vw;
+    width: 50%;
+}
+.ovel-footer-contact-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+.ofcb-item h4 {
+    margin-bottom: 0;
+}
+.ofcb-item a {
+    color: #ba6040;
+    font-size: 0.9vw;
+    font-weight: 600;
+    letter-spacing: 5%;
+	display: inline-block;
+}
+.ofcb-item a:hover {
+	color: #959F8A;
+}
+.ovel-home-sec-main p:last-child {
+    margin-bottom: 0;
+}
+.ovel_home_product_cats {
+    text-align: center;
+}
+.ovel_home_product_cats_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 85%;
+    margin: auto;
+    gap: 2vw;
+    margin-bottom: 7vw;
+}
+.ovel_home_product_cats_item a.ovel-button-main {
+    margin-top: 1.5vw;
+    padding: 1vw 3.5vw 1vw 3.5vw;
+    background: white;
+    color: #231F20;
+    border: 0.1vw solid #E954142B;
+    box-shadow: 0 0.4vw 4vw 0 #E954142B;
+}
+.ovel_home_product_cats_item a.ovel-button-main:hover {
+    background: #959F8A;
+    color: black;
+}
+.ovel_home_what_we_do_best h2.ovel-main-heading {
+    text-align: center;
+}
+.prclr {
+    color: #BA6040;
+}
+.ovel-subtext {
+    font-size: 1vw;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 1.5vw;
+}
+.whatwedo-box {
+    background: url(http://ovelspace.com/stagging/wp-content/uploads/2026/04/Subtract-1.png);
+    min-height: 29vw;
+    padding: 3.5vw 4vw 3vw 5.5vw;
+    border-radius: 7vw;
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+	position: relative;
+}
+.ovel_home_what_we_do_best .ovel_threebox_slider_outer {
+    width: 125%;
+	margin-top: 2.5vw;
+}
+.whatwedo-box h3 {
+    font-size: 1.85vw;
+    color: #231F20;
+    margin-bottom: 0.5vw;
+    line-height: 1.2;
+}
+.whatwedo-box h4 {
+    color: #BA6040;
+    font-size: 1.33vw;
+    margin-bottom: 1.5vw;
+	line-height: 1.2;
+}
+.whatwedo-box p {
+    color: #231F20;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+.whatwedo-box a {
+    position: absolute;
+    bottom: 3vw;
+    color: #BA6040;
+    font-weight: 400;
+    font-size: 1vw;
+}
+.whatwedo-box a:hover {
+    color: #959F8A;
+}
+.whatwedo-box .crnc-icon img {
+    position: absolute;
+    bottom: 4vw;
+    right: 2vw;
+    width: 1.6vw;
+}
+.ovel_home_spaces_inspire {
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+}
+.ovel_home_spaces_inspire_grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+}
+.ovel_home_spaces_inspire_grid .ovel_home_spaces_inspire_box {
+    margin-left: -13vw;
+    background: url(http://ovelspace.com/stagging/wp-content/uploads/2026/04/Subtract-3.png);
+    background-size: cover;
+    background-position: right bottom;
+    border-radius: 5vw;
+    padding: 3vw 7vw;
+	position: relative;
+}
+.ovel_home_spaces_inspire_box h2.ovel-main-heading {
+    margin-bottom: 2vw;
+}
+.ovel_home_spaces_inspire_box p {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 1.05vw;
+    font-weight: 400;
+}
+.ovel_home_spaces_inspire_box ul {
+    list-style: none;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+.ovel_home_spaces_inspire_box ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 2vw;
+    gap: 1vw;
+}
+.ovel_home_spaces_inspire_box ul li img {
+    width: 1.4vw;
+}
+.ovel_home_spaces_inspire_box ul li b {
+    font-weight: 500;
+}
+.ovel_home_spaces_inspire_box .crnr-ovel-img img {
+    position: absolute;
+    bottom: 0.5vw;
+    right: 2.5vw;
+    width: 5vw;
+}
+.ovel_home_difference_boxes_outer {
+    background: #E4E7E1;
+    padding-top: 6vw !important;
+    padding-bottom: 6vw !important;
+}
+.ovel_home_difference_boxes h2.ovel-main-heading {
+    text-align: center;
+}
+.ovel_five_boxes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 2vw;
+}
+.ovel_five_boxes .ovel_five_boxes_item {
+	grid-column: span 2;
+	background: white;
+    border-radius: 2.5vw;
+    box-shadow: 0 2vw 7vw 0 #AFADB51A;
+}
+.ovel_five_boxes .ovel_five_boxes_item:nth-child(4) { 
+	grid-column: 2 / span 2; 
+}
+.ovel-dfrnce-item {
+    padding: 1.5vw;
+}
+.ovel_home_difference_boxes {
+    width: 92%;
+    margin: auto;
+}
+.ovel-dfrnce-item-header {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+}
+.ovel-dfrnce-item-header img {
+    width: 4vw;
+}
+.ovel-dfrnce-item-header h3 {
+    margin-bottom: 0;
+    font-size: 1.4vw;
+    color: #231F20;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+.ovel-dfrnce-item .ovel-dfrnce-item-text h4 {
+    color: #BA6040;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.ovel-dfrnce-item .ovel-dfrnce-item-text p {
+    color: #777;
+    font-size: 1.05vw;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 1vw;
+}
+.ovel-centered-btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.ovel_home_difference_boxes .ovel_five_boxes {
+    margin-top: 3.5vw;
+}
+.bg_ovel_floating_icons img.bgofi-1 {
+    position: absolute;
+    z-index: -1;
+    left: -3vw;
+    width: 17vw;
+    top: 7.2vw;
+}
+.bg_ovel_floating_icons img.bgofi-2 {
+    position: absolute;
+    right: -4vw;
+    width: 22vw;
+    z-index: -1;
+    top: 1.5vw;
+}
+.bg_ovel_floating_icons img.bgofi-3 {
+    position: absolute;
+    width: 22vw;
+    z-index: -1;
+    bottom: 0;
+    left: 9vw;
+}
+.bg_ovel_floating_icons img.bgofi-4 {
+    position: absolute;
+    width: 17vw;
+    z-index: -1;
+    bottom: 7vw;
+    right: 9vw;
+}
+.ovel_home_what_clients_say_outer {
+    background: #959F8A;
+	z-index: 2;
+}
+.ovel_home_project_journy_outer {
+    z-index: 1;
+}
+.ovel-two-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.ovel_home_what_clients_say .whatclientsay-testimonials {
+    text-align: center;
+	margin-left: -3vw;
+}
+.ovel-testimonail-box {
+    background: #231F20;
+    color: white;
+    padding: 7vw 3vw;
+    margin-top: 1vw;
+    border-radius: 5vw;
+	text-align: center;
+}
+.ovel-testimonail-box p.testi-text {
+    font-size: 1.1vw;
+    margin-bottom: 1.5vw;
+}
+.ovel-testimonail-box img.stars {
+    width: 8.5vw;
+    margin-bottom: 2vw;
+}
+.ovel-testimonail-box p.author {
+    font-size: 1.2vw;
+    font-weight: 400;
+	margin-bottom: 0.5vw;
+}
+.ovel-testimonail-box p.auth-company {
+    margin-bottom: 0;
+    font-size: 1.2vw;
+}
+.ovel_home_what_clients_say .behungam-image {
+    margin-top: -2vw;
+    margin-left: -4vw;
+    margin-right: -11vw;
+    margin-bottom: -3vw;
+}
+.ovel-testimonail-box img.tarrws {
+    width: 30vw;
+}
+.ovel_home_project_journy_grid {
+    display: grid;
+    grid-template-columns: 1.12fr 3fr;
+}
+.ovel_home_project_journy_sidebar {
+    background: #231F20;
+    padding: 9vw 2.5vw 4vw 4vw;
+    color: white;
+}
+.ovel_home_project_journy_sidebar h2.ovel-main-heading {
+    color: white;
+    margin-bottom: 3vw;
+}
+.ovel_home_project_journy_sidebar p {
+    font-size: 1.4vw;
+    line-height: 1.5;
+	margin-bottom: 0;
+}
+.ovel_home_project_journy_sidebar img.project_journy_logo {
+    width: 9vw;
+    margin-left: 4.5vw;
+}
+.ovel_home_project_journy_sidebar img.project_journy_image {
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+}
+.ovel_home_project_journy_boxes img.project_journy_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+	top: 0;
+	z-index: -1;
+}
+.ovel_home_project_journy_boxes {
+    position: relative;
+    padding: 8vw 6vw 4vw 4vw;
+}
+.project_five_boxes {
+  	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 10vw;
+    row-gap: 7vw;
+}
+.project_five_boxes .project_five_boxes_item {
+	grid-column: span 2;
+	background: #959F8A;
+    padding: 1.5vw;
+    border-radius: 2vw;
+}
+.project_five_boxes .project_five_boxes_item:nth-child(3) { 
+	grid-column: 2 / span 2; 
+}
+.project_five_boxes_item h3 {
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+.project_five_boxes_item h4 {
+    color: white;
+    font-size: 1.25vw;
+    margin-bottom: 0.5vw;
+}
+.project_five_boxes_item p {
+    color: white;
+    font-size: 1.25vw;
+    margin-bottom: 0;
+}
+.ovel_home_proven_excellence {
+    background: #FFFCFA;
+    padding-top: 1.5vw;
+    padding-bottom: 7vw;
+    margin-bottom: 9vw;
+}
+.ovel_home_proven_excellence_top_image_area {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    width: 95%;
+	align-items: center;
+}
+.ovel_home_proven_excellence_top_image_area .circular-image {
+    margin-right: -24vw;
+}
+.ovel_home_proven_excellence_counters {
+    width: 85%;
+    margin: auto;
+}
+.ovhome_experience_counters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5vw;
+    margin-top: 3vw;
+}
+.ovhome_experience_counters .counter-box {
+    text-align: center;
+    padding: 2.25vw;
+    background: #959F8A;
+    border-radius: 2.5vw;
+    box-shadow: 0 0.35vw 0.35vw 0 #00000040;
+	font-size: 2.8vw;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2;
+}
+.ovhome_experience_counters .counter-box p {
+    font-size: 1.3vw;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.6vw;
+}
+.ovhome_experience_counters .counter-box:nth-child(2), .ovhome_experience_counters .counter-box:nth-child(4) {
+    background: #BA6040;
+}
+.ovel-three-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5vw;
+    margin-top: 3vw;
+	margin-bottom: 3.5vw;
+}
+.ovel_home_three_workspaces_posts_outer h2.ovel-main-heading {
+    text-align: center;
+}
+.ovel_home_three_workspaces_posts_outer {
+    margin-bottom: 7vw;
+}
+.ovel_workspace_post_item {
+    padding: 1.5vw;
+    border-radius: 1vw;
+    box-shadow: 0 1vw 1.2vw 0 #00000012;
+}
+.ovel_workspace_post_item img.wp-post-image {
+    width: 100%;
+    margin-bottom: 1.7vw;
+}
+.ovel_workspace_post_item h3 {
+    color: #231F20;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: 3%;
+    margin-bottom: 1vw;
+    height: 3vw;
+    line-height: 1.3;
+}
+.ovel_workspace_post_item p {
+    color: #777;
+    font-weight: 400;
+    font-size: 1.1vw;
+    margin-bottom: 1.5vw;
+    min-height: 6vw;
+}
+.ovel_workspace_post_item a.ovel-button-main.white_bg_btn {
+    border-color: #ba6040;
+}
+.ovel_home_ready_transform {
+    position: relative;
+    margin-bottom: 7vw;
+}
+.ovel_home_ready_transform img.bg_img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+	height: 100%;
+    width: 100%;
+}
+.ovel_home_ready_transform_box {
+    padding: 7vw 3vw 6vw 7vw;
+}
+.ovel_home_ready_transform_box h2.ovel-main-heading {
+    line-height: 1.5;
+    font-size: 3vw;
+}
+.ovel_home_ready_transform_box p {
+    color: white;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+.ovel-inline-btns {
+    display: flex;
+    gap: 1vw;
+}
+.ovel_home_ready_transform img.icon_img {
+    position: absolute;
+    right: 3vw;
+    bottom: 1vw;
+    width: 7vw;
+}
+.ovel-page-header {
+    margin-top: -7vw;
+}
+.ovel-page-header-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12vw;
+    padding-bottom: 9vw;
+}
+h1.ovel-supper-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 4.3vw;
+    margin-bottom: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 3%;
+    line-height: 1.2;
+}
+p.ovel-header-text {
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+}
+section.about-vision-section {
+    background: #E4E7E1;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+}
+.about-vision-text p {
+    font-size: 1.3vw;
+    margin-top: 2.5vw;
+}
+.about-vision-section .about-vision-image img {
+    width: 87%;
+    margin-left: 4vw;
+}
+section.about-mission-vision-section {
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+}
+.about-mission-vision-section h2.ovel-main-heading {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.about-mission-vision-section .ovel-two-grid {
+    gap: 1.5vw;
+    width: 80%;
+    margin: auto;
+}
+.about-mission-vision-section .whatwedo-box {
+    min-height: 25vw;
+}
+.about-mission-vision-section .whatwedo-box .crnc-icon img {
+    width: 4vw;
+    bottom: 1vw;
+    right: 0vw;
+}
+section.about-our-values-section {
+    background: #F5E7E3;
+    padding-top: 6vw;
+    text-align: center;
+    padding-bottom: 6vw;
+}
+.about-our-values-section .ovel_five_boxes {
+    margin-top: 2vw;
+	gap: 0;
+}
+.about-our-values-section .ovel_five_boxes_item {
+    background: transparent;
+    box-shadow: unset;
+    border-radius: unset;
+}
+.ovel-value-box {
+    background: url(http://ovelspace.com/stagging/wp-content/uploads/2026/04/Subtract.svg);
+    min-height: 30vw;
+    padding: 6vw 4vw;
+    background-size: cover;
+}
+.ovel-value-box img {
+    width: 4.2vw;
+}
+.ovel-value-box h3 {
+    font-weight: 600;
+    color: #BA6040;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.ovel-value-box p {
+    color: #777;
+    font-size: 1.3vw;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+section.about-our-approach-section {
+    position: relative;
+    z-index: 2;
+}
+.about-our-approach-section .project_five_boxes .project_five_boxes_item {
+    grid-column: span 2;
+	padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.about-our-approach-section .project_five_boxes_item h3 {
+    font-weight: 600;
+	letter-spacing: 3%;
+}
+.about-our-approach-section .project_five_boxes {
+    gap: 7vw;
+    row-gap: 5vw;
+}
+.ovel_about-awards-recognition-boxes {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.ovel_about-awards-recognition-boxes h4.award-rec-italic {
+    color: #777;
+    font-style: italic;
+    margin-bottom: 1vw;
+    font-size: 1.3vw;
+}
+.ovel_about-awards-recognition-boxes .ovel-two-grid {
+    gap: 1.5vw;
+}
+.ovel_about-awards-recognition-boxes .awards-recognition-boxes-item {
+    text-align: center;
+    padding: 2.25vw;
+    background: #959F8A;
+    border-radius: 2.5vw;
+    box-shadow: 0 0.35vw 0.35vw 0 #00000040;
+    line-height: 1.2;
+	min-height: 10vw;
+}
+.ovel_about-awards-recognition-boxes .awards-recognition-boxes-item h3 {
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4%;
+    margin-bottom: 1vw;
+}
+.ovel_about-awards-recognition-boxes .awards-recognition-boxes-item p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 1vw;
+}
+.ovel_about-awards-recognition-boxes .awards-recognition-boxes-item:nth-child(2), .ovel_about-awards-recognition-boxes .awards-recognition-boxes-item:nth-child(3) {
+    background: #BA6040;
+}
+.about-awards-recognition-section h2.ovel-main-heading {
+    text-align: center;
+    margin-top: 6vw;
+}
+h4.ovel-clrd-subtitle {
+    text-align: center;
+    color: #ba6040;
+    font-weight: 600;
+    letter-spacing: 4%;
+    font-size: 1.1vw;
+}
+.about-awards-recognition-section .ovel_home_proven_excellence_top_image_area {
+    margin-top: -11vw;
+}
+section.about-more-furniture-section {
+    position: relative;
+    z-index: 2;
+}
+section.contact-form-section {
+    background: #FFFCFA;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.contact-form-section h2.ovel-main-heading {
+    text-align: center;
+}
+.contact-form-section h4.subtitle {
+    text-align: center;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    color: #777777;
+}
+.ovel-contact-page-form {
+    width: 75%;
+    margin: auto;
+    margin-top: 5vw;
+}
+.ovel-contact-page-form h3 {
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+    color: #545454;
+}
+.ovel-contact-page-form span.wpcf7-form-control-wrap input.wpcf7-form-control {
+    font-size: 1.05vw;
+    box-shadow: unset;
+    min-height: 4vw;
+    border-radius: 1vw;
+    margin-bottom: 1.5vw;
+    padding: 1vw 1.5vw;
+    color: black;
+    border-color: #EAEDEF;
+}
+.ovel-contact-page-form span.wpcf7-form-control-wrap textarea.wpcf7-form-control {
+    font-size: 1.05vw;
+    box-shadow: unset;
+    border-radius: 1vw;
+    margin-bottom: 1.5vw;
+    padding: 1vw 1.5vw;
+    color: black;
+    border-color: #EAEDEF;
+}
+.ovel-contact-page-form span.wpcf7-form-control-wrap input.wpcf7-form-control::placeholder, .ovel-contact-page-form span.wpcf7-form-control-wrap textarea.wpcf7-form-control::placeholder {
+    color: #A6A6A6;
+}
+.ovel-contact-page-form input.wpcf7-submit.ovel-button-main {
+    background: #BA6040;
+    color: white;
+    padding: 0.8vw 2.5vw 0.8vw 2.5vw;
+    font-size: 1vw;
+    border-radius: 5vw;
+    font-weight: 400;
+    transition: 0.5s;
+    position: relative;
+    width: max-content;
+    display: inline-block;
+    border: 0.1vw solid #BA6040;
+    min-height: unset;
+    line-height: unset;
+    margin-bottom: 1.5vw;
+    text-transform: capitalize;
+}
+.ovel-contact-page-form h4.cuationline {
+    color: #ba6040;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 2%;
+    margin-bottom: 0;
+}
+.ovel-contact-page-form form.wpcf7-form {
+    margin-bottom: 0;
+}
+section.contact-prefer-to-talk-section {
+    position: relative;
+    z-index: 2;
+}
+.contact-prefer-to-talk-section a.ovel-button-main.surmaie-btn {
+    font-size: 0.82vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+a.ovel-button-main.surmaie-btn {
+    background: #959f8a;
+    border-color: #959f8a;
+}
+a.ovel-button-main.surmaie-btn:hover {
+    background: white;
+    border-color: white;
+}
+.contact-prefer-to-talk-section h2.ovel-main-heading {
+    text-align: center;
+    color: white;
+    margin-bottom: 4vw;
+}
